@@ -6,6 +6,10 @@ $line-height: 1.6 !default
 $link-color: #68f !default
 $dark: #212228 !default
 $light: #ffffff !default
+$ddark: #3fff3f !default
 
 @function reduce ($percent)
   @return rgba(mix($dark, $light), $percent / 100)
+
+@function reduce_op ($percent)
+  @return rgba(mix($light,$dark), $percent / 100)
