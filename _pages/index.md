@@ -20,7 +20,7 @@
 <body>
 <div id="container">
     <div id="left">
-    <img src="/assets/images/3I2A2240_crop.jpg" alt="pic">
+    <img src="{{ '/assets/images/3I2A2240_crop.jpg' | relative_url }}" alt="pic">
     </div>
     <div id="right">
     <div style="background-color:; height: 50px;">

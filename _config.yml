@@ -27,7 +27,12 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 plugins:
  - jekyll-feed
 
-include:
- - _pages
+#include:
+# - _pages
+
+collections:
+  pages:
+    output: true
+
 
 url: "https://siwonryu.github.io"
