@@ -1,6 +1,6 @@
 title: "Siwon Ryu"
 author: "Siwon Ryu"
-description: ""
+description: "ab"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -27,6 +27,5 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 plugins:
  - jekyll-feed
 
-collections:
-  pages:
-    output: true
+include:
+ - _pages
