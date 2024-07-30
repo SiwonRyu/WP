@@ -24,9 +24,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #  - {title: Github, icon: github, url: "https://github.com/SiwonRyu/WP_tmp"}
 #  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
 plugins:
  - jekyll-feed
+
+collections:
+  pages:
+    output: true
