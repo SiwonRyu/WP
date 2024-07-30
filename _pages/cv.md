@@ -8,4 +8,5 @@ permalink: /cv/
 </div>
 -->
 
-[Download CV](/assets/docs/CV.pdf)
+[Download CV]({{ '/assets/docs/CV.pdf' | relative_url }})
+
