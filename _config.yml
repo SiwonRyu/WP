@@ -33,6 +33,8 @@ plugins:
 collections:
   pages:
     output: true
+  assets:
+    output: true
 
 
 url: "https://siwonryu.github.io"
