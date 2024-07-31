@@ -21,12 +21,12 @@ body > header, body > footer
 
 @media (prefers-color-scheme: dark)
   html
-    background: darken($dark, 4%) /* 프레임 바깥부분 좀더 어둡게 */
+    background: darken($dark, 5%) /* 프레임 바깥부분 좀더 어둡게 */
   body
-    background: lighten($dark, 65%) /* Body의 배경색상 */
+    background: lighten($dark, 75%) /* Body의 배경색상 */
   body > header, body > footer
     background: $dark /* Footer와 Header의 배경색상 */
   body > header, body > footer
-    box-shadow: 0 0 0 1px lighten($dark, 8%) /* Header, Body, Footer의 박스 테두리 밝기 조금 밝게 */
+    box-shadow: 0 0 0 1px lighten($dark, 8%) /* Header, Footer의 박스 테두리 밝기 조금 밝게 */
   body
-    box-shadow: 0 0 0 1px lighten($dark, 60%) /* Header, Body, Footer의 박스 테두리 밝기 조금 밝게 */
+    box-shadow: 0 0 0 1px lighten($dark, 60%) /* Body 박스 테두리 밝기 조금 밝게 */

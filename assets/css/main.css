@@ -1,0 +1,60 @@
+body {
+    font-family: 'PT Sans';
+    background-color: lighten(#212228, 65%); 
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+    
+  .site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Contents의 상자 */
+  .site-content {
+    background-color: lighten(#212228, 65%); 
+    padding: 20px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: adds space between columns */
+  }
+  
+  .flex-container .column {
+    flex: 1 1 50%; /* Flex-grow, flex-shrink, flex-basis */
+    box-sizing: border-box;
+  }
+  
+  /* New class to center content */
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Ensures children are stacked vertically */
+    text-align: center; /* Centers text if any */
+  }
+  
+  .profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-text {
+    padding: 20px;
+    margin: 5px;
+  }
