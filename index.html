@@ -5,13 +5,28 @@ title: "Home"
 
 <!DOCTYPE html>
 <html lang="en">
-<body>
-  <main>
-    <!-- Include the Markdown content here -->
-    {% capture content %}
-    {% include_relative _pages/index.md %}
-    {% endcapture %}
-    {{ content | markdownify }}
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siwon Ryu</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  
+  <body>
+    <main class="site-content">
+      <div class="container flex-container">
+        <div class="column center-content">
+          <img src="{{ '/assets/images/3I2A2240_crop.jpg' | relative_url }}" alt="Profile" style="width: 100%; max-width: 400px; height: auto;" class="profile-image">
+        </div>
+        <div class="column">
+          <div class="profile-text">
+            <p>I am currently a PhD candidate in the Department of Economics at Rice University, with an anticipated graduation date of May 2025.</p>
+            <p>My research fields are econometrics, program evaluation, network economics, and health economics.</p>
+            <p>Feel free to reach out to me at: <a href="mailto:siwon.ryu@rice.edu">siwon.ryu@rice.edu</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
 </html>
