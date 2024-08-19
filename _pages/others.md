@@ -10,7 +10,7 @@ Database Works
     <span class="toggle-text"> Matching with SQL </span>
     <div class="content" style="display:none;">
         <div>
-            {% capture my_include %}{% include blank.md %}{% endcapture %}
+            {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
         </div>
     </div>
@@ -19,7 +19,7 @@ Database Works
     <span class="toggle-text"> Compute Treatment Effects with SQL </span>
     <div class="content" style="display:none;">
         <div>
-            {% capture my_include %}{% include blank.md %}{% endcapture %}
+            {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
         </div>
     </div>
