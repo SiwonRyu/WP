@@ -2,7 +2,6 @@
 layout: page
 title: ""
 permalink: /teaching/
-author_profile: false
 ---
 
 
