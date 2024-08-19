@@ -18,8 +18,3 @@ Teaching Assistant at Seoul National University
 “Econometrics” (graduate, instructor: Yoon-Jae Whang) 2018-2019
 Teaching Assistant at Kyung-Hee University
 “Macroeconomics I & II” (undergraduate, instructor: Wooheon Rhee), 2015
-
-
-
-
-

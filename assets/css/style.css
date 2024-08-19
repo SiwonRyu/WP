@@ -1,0 +1,43 @@
+.container_expanding {
+    width: 97%;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+.content p {
+    padding: 20px;
+    border-top: 0px solid #ccc;
+    margin-top: 5px;
+    display: block;
+    transition: max-height 0.5s ease-out;
+    overflow: hidden;
+}
+
+/* CSS for the text that expands/collapse when click */
+.toggle-text {
+    cursor: pointer; 
+    font-size: 20px; 
+    /* font-weight: bold;  */
+    padding-left: 0px;
+    margin-left: 0px;
+    position: relative;  /* Ensures the pseudo-element is positioned relative to this element */
+}
+.toggle-text:hover {
+    text-decoration: underline; /* Adds an underline on hover */
+}
+/* Add bullet point in front of the text */
+.toggle-text::before {
+    content: "• ";        /* Unicode character for a bullet point */
+    color: black;         /* Set the color of the bullet, can match or contrast with the text color */
+    font-size: 16px;      /* Ensure it matches or complements the size of the text */
+    position: absolute;   /* Positions the bullet absolutely within the .toggle-text element */
+    left: -20px;              /* Aligns the bullet to the far left of the .toggle-text element */
+    top: 0;               /* Aligns the bullet to the top, adjust if needed based on line-height */
+}
+
+/* CSS for contents to be shown when expanded */
+.markdown-content {
+    padding-left: 0px;  /* Adds padding to the left */
+    margin-left: 0px;   /* Adds margin to the left; use either padding or margin based on your layout needs */
+}
