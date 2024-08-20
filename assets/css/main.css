@@ -97,11 +97,13 @@ body {
       /* gap: 30px; */
       /* margin: 15px; */
       margin-bottom: 0px;
+      padding: 0% 20px;
     }
     .header-nav {
       top: auto;
       bottom: 0;
-      width: 100%
+      width: 100%;
+      /* padding: 2% 2%; */
     }
     .header-container{
       display: flex;
