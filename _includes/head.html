@@ -11,19 +11,18 @@
 
 <style>
     /* Hide both by default */
-    #header-small,
-    #header-large {
+    #layout-small, #layout-large{
         display: none;
     }
     /* Show the small header when screen width is less than 32em */
     @media (max-width: 32em) {
-        #header-small {
+        #layout-small {
             display: block;
         }
     }
     /* Show the large header when screen width is greater than or equal to 32em */
     @media (min-width: 32em) {
-        #header-large {
+        #layout-large {
             display: flex;
         }
     }
