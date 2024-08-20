@@ -1,24 +1,25 @@
 <!DOCTYPE html>
   {% include head.html %}
 
-<header id ="layout-small" class="header-container">
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
+  <header id="layout-large" class="header-container">
+    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
+    {% include menu.html %}
+  </header>
 
-</header>
+  <header id="layout-small" class="header-container">
+    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
+  </header>
+  <header id="layout-small" class="header-nav">
+    {% include menu.html %}
+  </header>
 
-<header id ="layout-large" class="header-container">
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
-  {% include menu.html %}
-</header>
+  <article>
+    {{ content }}
+  </article>
 
-
-<article>
-  {{ content }}
-</article>
-
-
-<footer id ="layout-small">
-  {% include menu.html %}
-</footer>
+  <!-- 
+  <footer id ="layout-small">
+    {% include menu.html %}
+  </footer> -->
 
 </html>
