@@ -58,3 +58,22 @@ body {
     padding: 20px;
     margin: 5px;
   }
+
+  .nav-small {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    /* gap: 30px; */
+    margin: 20px;
+    margin-bottom: 0px;
+  }
+
+  .title{
+    font-size: 1.25em;
+  }
+  
+  .title-small{
+    font-size: 1.25em;
+    margin: 34px;
+  }
+    

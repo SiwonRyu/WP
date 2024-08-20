@@ -4,12 +4,17 @@
 <!-- Small Screen Header -->
 <header id="header-large" class="header-container">
   <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
-  {% include menu.html %}
+  <nav>
+    {% include menu.html %}
+  </nav>  
 </header>
 
 <!-- Large Screen Header -->
 <header id="header-small" class="header-container">
-  {% include menu.html %}
+  <a href="{{ "/" | relative_url }}" class="title-small">{{ site.title | escape }}</a>
+  <nav class="nav-small">
+    {% include menu.html %}
+  </nav>
 </header>
 
 

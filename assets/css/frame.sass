@@ -55,6 +55,11 @@ body > header, body > footer
   body > header, body > article, body > footer
     padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.75em */
 
+@media (max-width: 32em)
+  body > header, body > article, body > footer
+    padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.75em */
+
+
 @media (prefers-color-scheme: dark)
   html
     background: darken($dark, 5%) /* 프레임 바깥부분 좀더 어둡게 */
