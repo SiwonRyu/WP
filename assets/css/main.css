@@ -64,16 +64,18 @@ body {
     flex: 1;
     justify-content: space-between;
     /* gap: 30px; */
-    margin: 20px;
+    /* margin: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 0px;
   }
 
   .title{
-    font-size: 1.25em;
+    font-size: 1.4em;
   }
-  
+
   .title-small{
-    font-size: 1.25em;
-    margin: 34px;
+    font-size: 1.4em;
+    padding-left: 15px;
   }
     

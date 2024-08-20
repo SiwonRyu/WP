@@ -55,9 +55,13 @@ body > header, body > footer
   body > header, body > article, body > footer
     padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.75em */
 
+/* Responsive Design: when width is less than 32em */
 @media (max-width: 32em)
   body > header, body > article, body > footer
     padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.75em */
+  article
+    transform: scale(0.87)
+    transform-origin: top
 
 
 @media (prefers-color-scheme: dark)
