@@ -8,3 +8,23 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <script src="{{ '/assets/js/expand.js' | relative_url }}"></script>
+
+<style>
+    /* Hide both by default */
+    #header-small,
+    #header-large {
+        display: none;
+    }
+    /* Show the small header when screen width is less than 32em */
+    @media (max-width: 32em) {
+        #header-small {
+            display: flex;
+        }
+    }
+    /* Show the large header when screen width is greater than or equal to 32em */
+    @media (min-width: 32em) {
+        #header-large {
+            display: flex;
+        }
+    }
+</style>

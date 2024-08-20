@@ -1,11 +1,17 @@
 <!DOCTYPE html>
   {% include head.html %}
 
-<header>
-  <!-- Show title on the left to link Root (Home) -->
+<!-- Small Screen Header -->
+<header id="header-large" class="header-container">
   <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
   {% include menu.html %}
 </header>
+
+<!-- Large Screen Header -->
+<header id="header-small" class="header-container">
+  {% include menu.html %}
+</header>
+
 
 <article>
   {{ content }}

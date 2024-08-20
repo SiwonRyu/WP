@@ -1,23 +1,59 @@
 ---
 ---
-/* 여기는 Frame에 대한 색상 */
-@import index, font, basic, layout, classes
+/* from index.sass */
+$font-size: calc(0.8rem + 0.2vw) !default
+$font-weight: 400 !default
+$font-family: "PT Sans", -apple-system, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif !default
+$heading-weight: 600 !default
+$line-height: 1.6 !default
+$link-color: #68f !default
+$dark: #282c37 !default
+$light: #d9e1e8 !default
+/* from index.sass */
 
+@import basic, layout, classes
+
+/* from font.sass */
+@font-face
+  font-family: 'PT Sans'
+  src: local('PT Sans'), local('PTSans-Regular'), url('../fonts/PTSans-Regular.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'PT Sans'
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url('../fonts/PTSans-Bold.woff') format('woff')
+  font-weight: bold
+  font-style: normal
+/* from font.sass */
+
+
+/* from index.sass */
+@function reduce ($percent)
+  @return rgba(mix($dark, $light), $percent / 100)
+
+@function reduce_op ($percent)
+  @return rgba(mix($light,$dark), $percent / 100)
+/* from index.sass */
+
+
+/* 여기는 Frame에 대한 색상 */
 html
   background: lighten($dark, 70%)
   padding: 0 calc(38% - 22em)
 
 body
-  box-shadow: 0 0 .3em lighten($dark, 65%)
+  box-shadow: 0 0 .3em lighten($dark, 70%)
   color: $dark /* Body의 글자색 */
 
 body > header, body > footer
   background: lighten($dark, 5%)
   color: lighten($dark, 65%) /* Header와 Footer의 글자 색상 */
 
+/* Responsive Design: when width is greater than 32em */
 @media (min-width: 32em)
   body > header, body > article, body > footer
-    padding: 1.75em calc(22% - 6em)
+    padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.75em */
 
 @media (prefers-color-scheme: dark)
   html
