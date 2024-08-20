@@ -6,11 +6,8 @@
     {% include menu.html %}
   </header>
 
-  <header id="layout-small" class="header-hide">
-
-  </header>
   <header id="layout-small" class="header-container">
-    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
+      <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
   </header>
   <header id="layout-small" class="header-nav">
     {% include menu.html %}
@@ -19,7 +16,6 @@
   <article>
     {{ content }}
   </article>
-
   <!-- 
   <footer id ="layout-small">
     {% include menu.html %}

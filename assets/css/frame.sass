@@ -41,11 +41,11 @@ $light: #d9e1e8 !default
 html
   background: lighten($dark, 70%)
   padding: 0 calc(38% - 22em)
+  overflow-x: hidden
 
 body
   box-shadow: 0 0 .3em lighten($dark, 70%)
   color: $dark /* Body의 글자색 */
-  overflow-x: hidden
 
 body > header, body > footer
   background: lighten($dark, 5%)
@@ -56,10 +56,14 @@ body > header, body > footer
   body > header, body > article, body > footer
     padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.75em */
 
+
 /* Responsive Design: when width is less than 32em */
 @media (max-width: 32em)
   body > header, body > article, body > footer
-    padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.75em */
+    padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.5em */
+  html
+    padding-top: 50px
+    overflow-x: hidden
   article
     transform: scale(0.8)
     transform-origin: top
