@@ -53,56 +53,52 @@ body {
     border-radius: 40px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
-  
   .profile-text {
     padding: 10px;
     /* margin: 5px; */
   }
 
+
   .nav {
     display: flex;
   }
-
   .header-nav {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;    
   }
-
   .title{
     font-size: 1.4em;
   }
-
   .header-container{
     display: flex;
+    top: 0;
+    
+    
   }
 
   @media (max-width: 32em) {
     .profile-text {
       padding: 0px;
     }
-
     .title {
       font-size: 1.4em;
       padding-left: 15px;
     }
-
     .nav {
       display: flex;
       flex: 1;
       justify-content: space-between;
       /* gap: 30px; */
       /* margin: 15px; */
-      width: 100%;
+      padding-left:15px;
+      padding-right:45px;
       margin-bottom: 0px;
     }
     .header-nav {
       top: auto;
       bottom: 0;
-    }
-    .header-container{
-      display: block;
     }
   }
 
