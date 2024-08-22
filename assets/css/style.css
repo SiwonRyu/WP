@@ -1,43 +1,66 @@
-.container_expanding {
+/* CSS for the text that expands/collapse when click */
+.item_container {
     width: 97%;
-    margin-left: 20px;
-    padding-left: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
     border: 0px solid #ccc;
     border-radius: 5px;
 }
-.content p {
+.item_container::after {
+    /* add the first property to show bottom line */
+    /* content: ""; */
+    display: block;
+    border-bottom: 1px solid #282c37;
+    margin-top: 10px; /* Adjust the spacing as needed */
+}
+.item_title {
+    cursor: pointer; 
+    font-size: 18px; 
+    /* font-weight: bold;  */
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    /* align-items: center; */
+    align-items: top; /* position of the arrow */
+    position: relative;  /* Ensures the pseudo-element is positioned relative to this element */
+}
+.item_title:hover .text {
+    text-decoration: underline; /* Adds an underline on hover */
+}
+/* Add bullet point in front of the text */
+.item_title::before {
+    content: "• ";        /* Unicode character for a bullet point */
+    color: #282c37;
+    font-size: 16px;
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+.item_title .arrow {
+    margin-left: auto; /* Push the arrow to the far right */
+    position: relative; /* Ensure the arrow stays within the flex container */
+}
+.item_title .arrow::before {
+    content: '\25BC'; /* Down arrow */
+    font-size: 18px;
+    color: #282c37;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+.item_title.active .arrow::before {
+    content: '\25B2'; /* Up arrow */
+}
+
+/* CSS for contents to be shown when expanded */
+.item_content p {
     padding: 20px;
     border-top: 0px solid #ccc;
     margin-top: 5px;
     display: block;
     transition: max-height 0.5s ease-out;
     overflow: hidden;
-}
 
-/* CSS for the text that expands/collapse when click */
-.toggle-text {
-    cursor: pointer; 
-    font-size: 20px; 
-    /* font-weight: bold;  */
     padding-left: 0px;
     margin-left: 0px;
-    position: relative;  /* Ensures the pseudo-element is positioned relative to this element */
-}
-.toggle-text:hover {
-    text-decoration: underline; /* Adds an underline on hover */
-}
-/* Add bullet point in front of the text */
-.toggle-text::before {
-    content: "• ";        /* Unicode character for a bullet point */
-    color: black;         /* Set the color of the bullet, can match or contrast with the text color */
-    font-size: 16px;      /* Ensure it matches or complements the size of the text */
-    position: absolute;   /* Positions the bullet absolutely within the .toggle-text element */
-    left: -20px;              /* Aligns the bullet to the far left of the .toggle-text element */
-    top: 0;               /* Aligns the bullet to the top, adjust if needed based on line-height */
-}
-
-/* CSS for contents to be shown when expanded */
-.markdown-content {
-    padding-left: 0px;  /* Adds padding to the left */
-    margin-left: 0px;   /* Adds margin to the left; use either padding or margin based on your layout needs */
 }
