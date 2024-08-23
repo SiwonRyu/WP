@@ -56,7 +56,7 @@ Machine Learning
         <span class="arrow"></span>     
     </div>
     <div class="item_content" style="display:none">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+        {% capture my_include %}{% include Classification.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
