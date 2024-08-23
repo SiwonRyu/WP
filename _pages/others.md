@@ -69,19 +69,43 @@ Previous Projects
 <div class="item_container">
     <div class="item_title"> 
         <span class="text">
-            A study of the college wage premium in metropolitan areas in Korea
+            A Study on Elasticity of Medical Service Demand for Western and Korean Medical Treatments : Focusing on Diseases of Musculoskeletal and Connective Tissue (with Seong Ho Lee, 2021)
         </span>
         <span class="arrow"></span>     
     </div>
     <div class="item_content" style="display:none">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+        {% capture my_include %}{% include Medical.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
 <div class="item_container">
     <div class="item_title"> 
         <span class="text">
-            The impact of macroeconomic shocks on the real economy under the monetary rule accounting for financial stability
+            A study of the college wage premium in metropolitan areas in Korea (2019)
+        </span>
+        <span class="arrow"></span>     
+    </div>
+    <div class="item_content" style="display:none">
+        {% capture my_include %}{% include College_wage.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+    </div>
+</div>
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="text">
+            The Effect of Speculative Zoning Policy on the Distribution of The Housing Price in Korean Real Estate Market (2019)
+        </span>
+        <span class="arrow"></span>     
+    </div>
+    <div class="item_content" style="display:none">
+        {% capture my_include %}{% include Real_Estate.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+    </div>
+</div>
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="text">
+            The impact of macroeconomic shocks on the real economy under the monetary rule accounting for financial stability (2017)
         </span>
         <span class="arrow"></span>     
     </div>
@@ -90,6 +114,8 @@ Previous Projects
             {{ my_include | markdownify }}
     </div>
 </div>
+
+
 
 <div style="margin-top: 50px;"></div>
 
