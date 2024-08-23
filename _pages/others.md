@@ -60,6 +60,20 @@ Machine Learning
             {{ my_include | markdownify }}
     </div>
 </div>
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="text">
+            Double Selection
+        </span>
+        <span class="arrow"></span>     
+    </div>
+    <div class="item_content" style="display:none">
+        {% capture my_include %}{% include Double_sel.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+    </div>
+</div>
+
+
 
 
 <div style="margin-top: 50px;"></div>
@@ -129,7 +143,7 @@ Other Projects, Codes
         <span class="arrow"></span>     
     </div>
     <div class="item_content" style="display:none">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+        {% capture my_include %}{% include SD_test.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
