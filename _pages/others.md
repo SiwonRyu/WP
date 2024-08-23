@@ -124,7 +124,7 @@ Previous Projects
         <span class="arrow"></span>     
     </div>
     <div class="item_content" style="display:none">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+        {% capture my_include %}{% include Monetary_Fin_Stab.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -133,7 +133,7 @@ Previous Projects
 
 <div style="margin-top: 50px;"></div>
 
-Other Projects, Codes
+Codes
 ====
 <div class="item_container">
     <div class="item_title"> 
@@ -147,7 +147,7 @@ Other Projects, Codes
             {{ my_include | markdownify }}
     </div>
 </div>
-<div class="item_container">
+<!-- <div class="item_container">
     <div class="item_title"> 
         <span class="text">
             Consulting Service (RA works): Quantifying Economic Damage
@@ -158,23 +158,11 @@ Other Projects, Codes
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
-</div>
+</div> -->
 <div class="item_container">
     <div class="item_title"> 
         <span class="text">
             SAS Codes
-        </span>
-        <span class="arrow"></span>     
-    </div>
-    <div class="item_content" style="display:none">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div>
-</div>
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="text">
-            Library Simulation
         </span>
         <span class="arrow"></span>     
     </div>
