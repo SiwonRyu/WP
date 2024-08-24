@@ -173,3 +173,43 @@ permalink: /others/
             {{ my_include | markdownify }}
     </div>
 </div> -->
+
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="arrow"></span>
+        <span class="text">
+            SAS Codes                                   
+        </span>        
+    </div>
+    <div class="item_content">
+        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+    </div>
+</div>
+
+
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="arrow"></span>
+        <span class="text">
+            SAS Codes                                       .
+        </span>        
+    </div>
+    <div class="item_content">
+        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+    </div>
+</div>
+
+
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="text">
+            SAS Codes
+        </span>        
+    </div>
+    <div class="item_content">
+        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+    </div>
+</div>
