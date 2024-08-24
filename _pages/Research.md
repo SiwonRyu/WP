@@ -8,7 +8,7 @@ permalink: /research/
 </div>
 -->
 
-Working Papers
+<img src="/assets/images/wp.png" alt="Icon"  width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Working Papers
 ======
 <div class="item_container">
     <div class="item_title active"> 
@@ -18,7 +18,7 @@ Working Papers
         </span>        
     </div>
     <div class="item_content expanded">
-        {% capture my_include %}{% include JMP_detail.md %}{% endcapture %}
+        {% capture my_include %}{% include research/JMP_detail.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -30,7 +30,7 @@ Working Papers
         </span>        
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include 3YP_detail.md %}{% endcapture %}
+        {% capture my_include %}{% include research/3YP_detail.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -42,7 +42,7 @@ Working Papers
         </span>        
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include 2YP_detail.md %}{% endcapture %}
+        {% capture my_include %}{% include research/2YP_detail.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -56,7 +56,7 @@ Working Papers
 
 <div style="margin-top: 50px;"></div>
 
-Work in Progress
+<img src="/assets/images/wip.png" alt="Icon"  width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Work in Progress
 ======
 <div class="item_container">
     <div class="item_title"> 
@@ -66,7 +66,7 @@ Work in Progress
         </span>        
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include CC_detail.md %}{% endcapture %}
+        {% capture my_include %}{% include research/CC_detail.md %}{% endcapture %}
         {{ my_include | markdownify }}
     </div>
 </div>
