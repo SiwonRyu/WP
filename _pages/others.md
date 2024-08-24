@@ -9,9 +9,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
-        <span class="text">
-            Matching with SQL
-        </span>
+        <span >Matching with SQL</span>
     </div>
     <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
@@ -21,9 +19,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
-        <span class="text">
-            Compute Treatment Effects with SQL
-        </span>
+        <span >Compute Treatment Effects with SQL</span>
     </div>
     <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
@@ -39,7 +35,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
-        <span class="text">
+        <span >
             Community Detection
         </span>
     </div>
@@ -51,7 +47,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
-        <span class="text">
+        <span >
             Classification
         </span>        
     </div>
@@ -63,7 +59,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>     
-        <span class="text">
+        <span >
             Double Selection
         </span>
     </div>
@@ -83,7 +79,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>     
-        <span class="text">
+        <span >
             A Study on Elasticity of Medical Service Demand for Western and Korean Medical Treatments : Focusing on Diseases of Musculoskeletal and Connective Tissue (with Seong Ho Lee, 2021)
         </span>
     </div>
@@ -95,7 +91,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>     
-        <span class="text">
+        <span >
             A Study of The College Wage Premium in Metropolitan Areas in Korea (2019)
         </span>
     </div>
@@ -107,7 +103,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>     
-        <span class="text">
+        <span >
             The Effect of Speculative Zoning Policy on the Distribution of The Housing Price in Korean Real Estate Market (2019)
         </span>
     </div>
@@ -119,7 +115,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
-        <span class="text">
+        <span >
             The Impact of Macroeconomic Shocks on The Real Economy Under The Monetary Rule Accounting for Financial Stability (with Daeeun Bae, 2017)
         </span>
     </div>
@@ -139,7 +135,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
-        <span class="text">
+        <span >
             Codes for Testing Stochastic Dominance
         </span>
     </div>
@@ -152,9 +148,7 @@ permalink: /others/
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
-        <span class="text">
-            SAS Codes
-        </span>        
+        <span>SAS Codes</span>        
     </div>
     <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
@@ -163,7 +157,7 @@ permalink: /others/
 </div>
 <!-- <div class="item_container">
     <div class="item_title"> 
-        <span class="text">
+        <span >
             Consulting Service (RA works): Quantifying Economic Damage
         </span>
         <span class="arrow"></span>     
@@ -173,64 +167,3 @@ permalink: /others/
             {{ my_include | markdownify }}
     </div>
 </div> -->
-
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="arrow"></span>
-        <span class="text">
-            SAS Codes                                       .
-        </span>        
-    </div>
-    <div class="item_content">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div>
-</div>
-
-<div class="item_container">
-<div class="item_title"> 
-    <span class="text">
-        SAS Codes
-    </span>        
-</div>
-</div>
-<div class="item_container">
-<span>
-    SAS Codes
-</span>        
-</div>
-
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="arrow"></span>
-        <span>
-            SAS Codes
-        </span>
-    </div>
-    <div class="item_content">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div>
-</div>
-
-
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="arrow">SAS Codes</span>  
-    </div>
-    <div class="item_content">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div>
-</div>
-
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="arrow"></span>  
-        <span>SAS Codes</span>
-    </div>
-    <div class="item_content">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div>
-</div>
