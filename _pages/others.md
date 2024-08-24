@@ -95,7 +95,7 @@ Previous Projects
 <div class="item_container">
     <div class="item_title"> 
         <span class="text">
-            A study of the college wage premium in metropolitan areas in Korea (2019)
+            A Study of The College Wage Premium in Metropolitan Areas in Korea (2019)
         </span>
         <span class="arrow"></span>     
     </div>
@@ -119,7 +119,7 @@ Previous Projects
 <div class="item_container">
     <div class="item_title"> 
         <span class="text">
-            The impact of macroeconomic shocks on the real economy under the monetary rule accounting for financial stability (2017)
+            The Impact of Macroeconomic Shocks on The Real Economy Under The Monetary Rule Accounting for Financial Stability (with Daeeun Bae, 2017)
         </span>
         <span class="arrow"></span>     
     </div>
