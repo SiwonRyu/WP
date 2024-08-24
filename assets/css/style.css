@@ -23,7 +23,9 @@
     position: relative;
     text-align: justify;
 }
-
+.item_title .text {
+    /* white-space: nowrap; */
+}
 .item_title:hover .text {
     text-decoration: underline;
 }
