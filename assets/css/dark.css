@@ -1,0 +1,16 @@
+.dark-mode-toggle-large, .dark-mode-toggle-small {
+    position: fixed;
+    top: 9em; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    scale: 200%;
+    color: red;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's on top of other elements */
+  }
+  
+  .dark-mode-toggle-small {
+    top: auto; /* Distance from the bottom */
+    right: 10px; /* Distance from the right */
+  }
+  

@@ -26,7 +26,7 @@
 }
 .item_title .text {
     display: block;
-    text-align: justify-all;
+    text-align: start;
 }
 .item_title:hover .text {
     text-decoration: underline;
