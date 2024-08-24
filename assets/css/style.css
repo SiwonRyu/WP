@@ -52,6 +52,17 @@
     background-image: url('/assets/images/collapse.png');
 }
 
+
+@media (prefers-color-scheme: dark) {
+    .item_title .arrow::before {
+        filter: invert(100%); /* Inverts the image to negative */
+    }
+
+    .item_title.active .arrow::before {
+        filter: invert(100%); /* Inverts the image to negative */
+    }
+}
+
 .item_content {
     overflow: hidden;
     max-height: 0;
