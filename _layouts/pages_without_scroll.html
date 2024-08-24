@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
-<article style="overflow-y: scroll; scrollbar-width: none; -ms-overflow-style: none;">
+<html style="scrollbar-width: none; -ms-overflow-style: none;">
+<head>
     <style>
-        div::-webkit-scrollbar {
+        body::-webkit-scrollbar {
             display: none; /* For Chrome, Safari, and WebKit browsers */
         }
     </style>
-{{ content }}
+</head>
+
+<article>
+    {{ content }}
 </article>
