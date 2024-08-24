@@ -12,34 +12,27 @@
     display: flex;
     align-items: center;
 }
-.item_title .text {
-    display: block;
-}
-.item_title:hover .text {
+.item_title:hover {
     text-decoration: underline;
 }
-
 .item_title .arrow {
     margin-left: 6px;
-    margin-right: 22px;
     position: relative;
 }
-
 .item_title .arrow::before {
     content: '';
     display: inline-block;
-    width: 18px;
+    width:  18px;
     height: 18px;
+    margin-right: 22px;
     background-image: url('/assets/images/expand.png');
     background-size: contain;
     background-repeat: no-repeat;
     transition: transform 0.3s;
 }
-
 .item_title.active .arrow::before {
     background-image: url('/assets/images/collapse.png');
 }
-
 .item_content {
     overflow: hidden;
     max-height: 0;
