@@ -11,9 +11,9 @@ Working Papers
 ======
 {% assign items = "JMP,3YP,2YP" | split: "," %}
 {% assign titles = 
-"JMP:“Decomposition of Causal Effect Accounting for Network Change” (Job market paper):research/JMP_detail.md:block
-\3YP:“Local Average Treatment Effects with Imperfect Compliance and Interference” (Submitted, <i>Journal of Econometrics</i>):research/3YP_detail.md:none
-\2YP:“Direct and Indirect Treatment Effects with Social Interaction”:research/2YP_detail.md:none
+"JMP:“Decomposition of Causal Effect Accounting for Network Change” (Job market paper):Research/JMP_detail.md:block
+\3YP:“Local Average Treatment Effects with Imperfect Compliance and Interference” (Submitted, <i>Journal of Econometrics</i>):Research/3YP_detail.md:none
+\2YP:“Direct and Indirect Treatment Effects with Social Interaction”:Research/2YP_detail.md:none
 " | split: "\" %}
 
 
@@ -55,7 +55,7 @@ Work in Progress
 ======
 {% assign items = "CC" | split: "," %}
 {% assign titles = 
-"CC;“Heterogeneous Parental Labor Supply Responses to Children’s Severe Health Shocks: Evidence from Administrative Data from South Korea” (with Jungmin Lee and Hyuncheol Bryant Kim);research/CC_detail.md
+"CC;“Heterogeneous Parental Labor Supply Responses to Children’s Severe Health Shocks: Evidence from Administrative Data from South Korea” (with Jungmin Lee and Hyuncheol Bryant Kim);Research/CC_detail.md
 " | split: "\" %}
 
 
