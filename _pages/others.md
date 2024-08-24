@@ -56,7 +56,7 @@ permalink: /others/
         </span>        
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include others/Classification.md %}{% endcapture %}
+        {% capture my_include %}{% include Others/Classification.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -68,7 +68,7 @@ permalink: /others/
         </span>
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include others/Double_sel.md %}{% endcapture %}
+        {% capture my_include %}{% include Others/Double_sel.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -88,7 +88,7 @@ permalink: /others/
         </span>
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include others/Medical.md %}{% endcapture %}
+        {% capture my_include %}{% include Others/Medical.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -100,7 +100,7 @@ permalink: /others/
         </span>
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include others/College_wage.md %}{% endcapture %}
+        {% capture my_include %}{% include Others/College_wage.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -112,7 +112,7 @@ permalink: /others/
         </span>
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include others/Real_Estate.md %}{% endcapture %}
+        {% capture my_include %}{% include Others/Real_Estate.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -124,7 +124,7 @@ permalink: /others/
         </span>
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include others/Monetary_Fin_Stab.md %}{% endcapture %}
+        {% capture my_include %}{% include Others/Monetary_Fin_Stab.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -144,7 +144,7 @@ permalink: /others/
         </span>
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include others/SD_test.md %}{% endcapture %}
+        {% capture my_include %}{% include Others/SD_test.md %}{% endcapture %}
         {{ my_include | markdownify }}
     </div>
 </div>

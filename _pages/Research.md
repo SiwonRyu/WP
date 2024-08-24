@@ -5,7 +5,7 @@ permalink: /research/
 ---
 <!--
 <div style="margin-top: 50px;">
-</div>abc
+</div>
 -->
 
 <img src="/assets/images/wp.png" alt="Icon"  width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Working Papers
@@ -18,7 +18,7 @@ permalink: /research/
         </span>        
     </div>
     <div class="item_content expanded">
-        {% capture my_include %}{% include research/JMP_detail.md %}{% endcapture %}
+        {% capture my_include %}{% include Research/JMP_detail.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -30,7 +30,7 @@ permalink: /research/
         </span>        
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include research/3YP_detail.md %}{% endcapture %}
+        {% capture my_include %}{% include Research/3YP_detail.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -42,7 +42,7 @@ permalink: /research/
         </span>        
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include research/2YP_detail.md %}{% endcapture %}
+        {% capture my_include %}{% include Research/2YP_detail.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
@@ -66,7 +66,7 @@ permalink: /research/
         </span>        
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include research/CC_detail.md %}{% endcapture %}
+        {% capture my_include %}{% include Research/CC_detail.md %}{% endcapture %}
         {{ my_include | markdownify }}
     </div>
 </div>
