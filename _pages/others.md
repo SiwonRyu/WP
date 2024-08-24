@@ -178,17 +178,13 @@ permalink: /others/
     <div class="item_title"> 
         <span class="arrow"></span>Codes for Testing Stochastic Dominance
     </div>
-    <div class="item_content">
-        {% capture my_include %}{% include Others/SD_test.md %}{% endcapture %}
-        {{ my_include | markdownify }}
-    </div>
 </div>
 <div class="item_container">
-    <div class="item_title"> 
-        <span class="arrow"></span>SAS Codes
-    </div>
-    <div class="item_content">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div>
+    Codes for Testing Stochastic Dominance
 </div>
+Codes for Testing Stochastic Dominance
+
+<div class="item_container">
+    SAS Code
+</div>
+SAS Code
