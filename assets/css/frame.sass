@@ -42,10 +42,15 @@ html
   background: lighten($dark, 70%)
   padding: 0 calc(38% - 22em)
   overflow-x: hidden
+  box-sizing: border-box;
+  overflow-y: scroll; /* Always show scrollbar */
 
 body
+  padding-right: calc(100vw - 100%); /* Compensate for the scrollbar width */
   box-shadow: 0 0 .3em lighten($dark, 70%)
   color: $dark /* Body의 글자색 */
+  margin: 0;
+
 
 body > header, body > footer
   background: lighten($dark, 5%)

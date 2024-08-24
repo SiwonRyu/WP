@@ -1,0 +1,41 @@
+/* left side bullet point + right end expanding arrow */
+.item_title {
+    cursor: pointer; 
+    font-size: 18px; 
+    /* font-weight: bold;  */
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    /* align-items: center; */
+    align-items: top; /* position of the arrow */
+    position: relative;  /* Ensures the pseudo-element is positioned relative to this element */
+}
+.item_title:hover .text {
+    text-decoration: underline; /* Adds an underline on hover */
+}
+/* Add bullet point in front of the text */
+.item_title::before {
+    content: "• ";        /* Unicode character for a bullet point */
+    color: #282c37;
+    font-size: 16px;
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+.item_title .arrow {
+    margin-left: auto; /* Push the arrow to the far right */
+    position: relative; /* Ensure the arrow stays within the flex container */
+}
+.item_title .arrow::before {
+    content: '';
+    display: inline-block;
+    width: 18px;  /* Adjust the width based on your image size */
+    height: 18px; /* Adjust the height based on your image size */
+    background-image: url('/assets/images/expand.png'); /* Replace with your image path */
+    background-size: contain;  /* Ensures the image fits within the element */
+    background-repeat: no-repeat;
+    transition: transform 0.3s;
+}
+.item_title.active .arrow::before {
+    background-image: url('/assets/images/collapse.png'); /* Replace with your image path */
+}

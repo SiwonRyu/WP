@@ -4,28 +4,28 @@ title: "Others"
 permalink: /others/
 ---
 
-Database Works
+<img src="/assets/images/sqls.png" alt="Icon" width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Database Works
 ====
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>
         <span class="text">
             Matching with SQL
         </span>
-        <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>
         <span class="text">
             Compute Treatment Effects with SQL
         </span>
-        <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
@@ -34,40 +34,40 @@ Database Works
 
 <div style="margin-top: 50px;"></div>
 
-Machine Learning
+<img src="/assets/images/machinelearnings.png" alt="Icon" width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Machine Learning
 ====
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>
         <span class="text">
             Community Detection
         </span>
-        <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>
         <span class="text">
             Classification
-        </span>
-        <span class="arrow"></span>     
+        </span>        
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include Classification.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>     
         <span class="text">
             Double Selection
         </span>
-        <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include Double_sel.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
@@ -78,52 +78,52 @@ Machine Learning
 
 <div style="margin-top: 50px;"></div>
 
-Previous Projects
+<img src="/assets/images/projects.png" alt="Icon" width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Previous Projects
 ====
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>     
         <span class="text">
             A Study on Elasticity of Medical Service Demand for Western and Korean Medical Treatments : Focusing on Diseases of Musculoskeletal and Connective Tissue (with Seong Ho Lee, 2021)
         </span>
-        <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include Medical.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>     
         <span class="text">
             A Study of The College Wage Premium in Metropolitan Areas in Korea (2019)
         </span>
-        <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include College_wage.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>     
         <span class="text">
             The Effect of Speculative Zoning Policy on the Distribution of The Housing Price in Korean Real Estate Market (2019)
         </span>
-        <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include Real_Estate.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>
         <span class="text">
             The Impact of Macroeconomic Shocks on The Real Economy Under The Monetary Rule Accounting for Financial Stability (with Daeeun Bae, 2017)
         </span>
-        <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include Monetary_Fin_Stab.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
@@ -133,20 +133,36 @@ Previous Projects
 
 <div style="margin-top: 50px;"></div>
 
-Codes
+
+<img src="/assets/images/codes.png" alt="Icon"  width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Codes
 ====
 <div class="item_container">
     <div class="item_title"> 
+        <span class="arrow"></span>
         <span class="text">
             Codes for Testing Stochastic Dominance
         </span>
-        <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include SD_test.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</div>
+
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="arrow"></span>
+        <span class="text">
+            SAS Codes
+        </span>        
+    </div>
+    <div class="item_content">
+        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
+
+
 <!-- <div class="item_container">
     <div class="item_title"> 
         <span class="text">
@@ -154,20 +170,10 @@ Codes
         </span>
         <span class="arrow"></span>     
     </div>
-    <div class="item_content" style="display:none">
+    <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div> -->
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="text">
-            SAS Codes
-        </span>
-        <span class="arrow"></span>     
-    </div>
-    <div class="item_content" style="display:none">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div>
-</div>
+
+
