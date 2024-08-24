@@ -119,3 +119,19 @@ body {
     z-index: 1000;
   }
 }
+
+
+
+.dark-mode-toggle-large, .dark-mode-toggle-small {
+  top: 10px; /* Distance from the top */
+  right: 5px; /* Distance from the right */
+  scale: 150%;
+  
+  padding: 0px 0px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+.dark-mode-toggle-small {
+  top: 20px; /* Distance from the bottom */
+  right: 10px; /* Distance from the right */
+}

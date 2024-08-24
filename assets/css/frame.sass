@@ -38,28 +38,51 @@ $light: #d9e1e8 !default
 
 
 /* 여기는 Frame에 대한 색상 */
+/* Default Styles */
 html
-  background: lighten($dark, 70%)
+  background: darken($dark, 5%)
+  /*background: lighten($dark, 70%)*/
   padding: 0 calc(38% - 22em)
   overflow-x: hidden
   box-sizing: border-box
   overflow-y: scroll /* Always show scrollbar */
-  
 
 body
-  padding-right: calc(100vw - 100%) /* Compensate for the scrollbar width */
-  box-shadow: 0 0 .3em lighten($dark, 70%)
+  background: lighten($dark, 75%) /* Body의 배경색상 */
+  box-shadow: 0 0 0 1px lighten($dark, 6%) /* Body 박스 테두리 밝기 조금 밝게 */
   color: $dark /* Body의 글자색 */
   
-
 body > header, body > footer
-  background: lighten($dark, 5%)
-  color: lighten($dark, 65%) /* Header와 Footer의 글자 색상 */
+  background: $dark /* Footer와 Header의 배경색상 */
+  color: lighten($dark, 70%) /* Header와 Footer의 글자 색상 */
+  box-shadow: 0 0 0 1px lighten($dark, 8%) /* Header, Footer의 박스 테두리 밝기 조금 밝게 */
 
-/* Responsive Design: when width is greater than 32em */
-@media (min-width: 32em)
-  body > header, body > article, body > footer
-    padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.75em */
+body > header, body > article, body > footer
+  padding: 1.5em calc(20% - 6em) /* Header, Footer의 높이 1.75em */
+
+/* Icons in front of each item */
+.item_icon
+    filter: none
+    width: 30px
+    height: 30px
+    vertical-align: middle
+    margin-right: 15px
+    margin-top: 4px
+
+
+
+/* Dark Mode Styles */
+body.dark-mode
+  background: $dark /* Body의 배경색상 (dark-mode) */
+  box-shadow: 0 0 0 1px darken($dark, 10%) /* Body 박스 테두리 밝기 조금 밝게 */
+  color: lighten($dark, 75%)
+
+body.dark-mode .header-container, body.dark-mode .header-nav
+  background-color: darken($dark, 10%);
+
+/* Dark Mode Inversion */
+body.dark-mode .item_title .arrow::before, body.dark-mode .item_icon 
+  filter: invert(100%)
 
 
 /* Responsive Design: when width is less than 32em */
@@ -74,17 +97,12 @@ body > header, body > footer
     transform-origin: center
     margin-top: -4em
     margin-bottom: 6em
-    
 
+  body.dark-mode
+    background: $dark /* Body의 배경색상 (dark-mode) */
+    box-shadow: 0 0 0 1px darken($dark, 10%) /* Body 박스 테두리 밝기 조금 밝게 */
+    color: lighten($dark, 75%)
 
-@media (prefers-color-scheme: dark)
-  html
-    background: darken($dark, 5%) /* 프레임 바깥부분 좀더 어둡게 */
-  body
-    background: lighten($dark, 75%) /* Body의 배경색상 */
-  body > header, body > footer
-    background: $dark /* Footer와 Header의 배경색상 */
-  body > header, body > footer
-    box-shadow: 0 0 0 1px lighten($dark, 8%) /* Header, Footer의 박스 테두리 밝기 조금 밝게 */
-  body
-    box-shadow: 0 0 0 1px lighten($dark, 60%) /* Body 박스 테두리 밝기 조금 밝게 */
+  body.dark-mode .header-container, body.dark-mode .header-nav
+    background-color: darken($dark, 10%);
+

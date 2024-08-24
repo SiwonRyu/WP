@@ -3,15 +3,22 @@
 
   <header id="layout-large" class="header-container">
     <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
-    {% include menu.html %}
+    <nav class="nav">
+      {% include menu.html %}
+      <!-- <i id="dark-mode-toggle-large" class="fas fa-moon dark-mode-toggle-large"></i> -->
+    </nav>    
   </header>
-
-  <header id="layout-small" class="header-container">
+  
+  <header id ="layout-small" class="header-container">
       <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a> 
   </header>
-  <header id="layout-small" class="header-nav">
-    {% include menu.html %}
+  <header id ="layout-small" class="header-nav">
+    <nav class="nav">
+      {% include menu.html %}
+      <!-- <i id="dark-mode-toggle-small" class="fas fa-moon dark-mode-toggle-small"></i> -->
+    </nav>    
   </header>
+  
 
   {{ content }}
   <!-- 

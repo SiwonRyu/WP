@@ -8,7 +8,7 @@ permalink: /research/
 </div>
 -->
 
-<img src="/assets/images/wp.png" alt="Icon"  width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Working Papers
+<img src="/assets/images/wp.png" alt="Icon"  class="item_icon">Working Papers
 ======
 <div class="item_container">
     <div class="item_title active"> 
@@ -56,7 +56,7 @@ permalink: /research/
 
 <div style="margin-top: 50px;"></div>
 
-<img src="/assets/images/wip.png" alt="Icon"  width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Work in Progress
+<img src="/assets/images/wip.png" alt="Icon"  class="item_icon">Work in Progress
 ======
 <div class="item_container">
     <div class="item_title"> 

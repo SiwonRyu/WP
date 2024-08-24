@@ -4,7 +4,7 @@ title: "Others"
 permalink: /others/
 ---
 
-<img src="/assets/images/sqls.png" alt="Icon" width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Database Works
+<img src="/assets/images/sqls.png" alt="Icon" class="item_icon">Database Works
 ====
 <div class="item_container">
     <div class="item_title"> 
@@ -34,7 +34,7 @@ permalink: /others/
 
 <div style="margin-top: 50px;"></div>
 
-<img src="/assets/images/machinelearnings.png" alt="Icon" width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Machine Learning
+<img src="/assets/images/machinelearnings.png" alt="Icon" class="item_icon">Machine Learning
 ====
 <div class="item_container">
     <div class="item_title"> 
@@ -78,7 +78,7 @@ permalink: /others/
 
 <div style="margin-top: 50px;"></div>
 
-<img src="/assets/images/projects.png" alt="Icon" width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Previous Projects
+<img src="/assets/images/projects.png" alt="Icon" class="item_icon">Previous Projects
 ====
 <div class="item_container">
     <div class="item_title"> 
@@ -134,7 +134,7 @@ permalink: /others/
 <div style="margin-top: 50px;"></div>
 
 
-<img src="/assets/images/codes.png" alt="Icon"  width="30" height="30" style="vertical-align:middle; margin-right:15px; margin-top: 4px;">Codes
+<img src="/assets/images/codes.png" alt="Icon" class="item_icon">Codes
 ====
 <div class="item_container">
     <div class="item_title"> 
