@@ -173,18 +173,3 @@ permalink: /others/
             {{ my_include | markdownify }}
     </div>
 </div> -->
-
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="arrow"></span>Codes for Testing Stochastic Dominance
-    </div>
-</div>
-<div class="item_container">
-    Codes for Testing Stochastic Dominance
-</div>
-Codes for Testing Stochastic Dominance
-
-<div class="item_container">
-    SAS Code
-</div>
-SAS Code

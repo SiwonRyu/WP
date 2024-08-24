@@ -5,15 +5,11 @@
     margin-bottom: 10px; /* spacing between items */
 
 }
-.item_container::after {
-    display: block;
-    border-bottom: 1px solid #282c37;
-    margin-top: 10px;
-}
-
 .item_title {
     cursor: pointer; 
 
+    display: flex;
+    align-items: center;
 }
 .item_title .text {
     display: block;
