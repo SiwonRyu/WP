@@ -25,6 +25,7 @@
     text-align: justify;
 }
 .item_title .text {
+    display: block;
     text-align: justify;
 }
 .item_title:hover .text {
@@ -51,8 +52,6 @@
 .item_title.active .arrow::before {
     background-image: url('/assets/images/collapse.png');
 }
-
-
 
 .item_content {
     overflow: hidden;
