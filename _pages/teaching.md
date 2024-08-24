@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages_with_scroll
 title: ""
 permalink: /teaching/
 ---

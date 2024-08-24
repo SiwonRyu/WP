@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages_with_scroll
 title: "Others"
 permalink: /others/
 ---
@@ -161,8 +161,6 @@ permalink: /others/
             {{ my_include | markdownify }}
     </div>
 </div>
-
-
 <!-- <div class="item_container">
     <div class="item_title"> 
         <span class="text">
@@ -175,5 +173,3 @@ permalink: /others/
             {{ my_include | markdownify }}
     </div>
 </div> -->
-
-

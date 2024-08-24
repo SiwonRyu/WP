@@ -1,20 +1,25 @@
 ---
-layout: default
+layout: pages_without_scroll
 ---
+<html style="scrollbar-width: none; -ms-overflow-style: none;">
+<head>
+    <style>
+        body::-webkit-scrollbar {
+            display: none; /* For Chrome, Safari, and WebKit browsers */
+        }
+    </style>
+</head>
 
 <main class="site-content">
   <div class="container flex-container">
     <div class="column center-content">
-      <img src="{{ '/assets/images/3I2A2240_crop.jpg' | relative_url }}" alt="Profile" style="width: 100%; max-width: 400px; height: auto;" class="profile-image">
+      <img src="{{ '/assets/images/3I2A2240_crop.jpg' | relative_url }}" alt="Profile" class="profile-image">
     </div>
-
-
-
-      <div class="profile-text">
-        <p>I am a Ph.D. candidate in the Department of Economics at Rice University, with an anticipated graduation date of May 2025. I am on the job market for the academic year 2024-2025.</p>
-        <p>My research fields are econometrics, program evaluation, network economics, and health economics.</p>
-        <p>Feel free to reach out to me at: <a href="mailto:siwon.ryu@rice.edu">siwon.ryu@rice.edu</a></p>
-      </div>
-
+    
+    <div class="profile-text">
+      <p>I am a Ph.D. candidate in the Department of Economics at Rice University, with an anticipated graduation date of May 2025. I am on the job market for the academic year 2024-2025.</p>
+      <p>My research fields are econometrics, program evaluation, network economics, and health economics.</p>
+      <p>Feel free to reach out to me at: <a href="mailto:siwon.ryu@rice.edu">siwon.ryu@rice.edu</a></p>
+    </div>
   </div>
 </main>
