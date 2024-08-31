@@ -11,20 +11,20 @@ permalink: /others/
         <span class="arrow"></span>
         <span >Matching with SQL</span>
     </div>
-    <div class="item_content">
+    <!-- <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
-    </div>
+    </div> -->
 </div>
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
         <span >Compute Treatment Effects with SQL</span>
     </div>
-    <div class="item_content">
+    <!-- <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
-    </div>
+    </div> -->
 </div>
 
 
@@ -39,10 +39,10 @@ permalink: /others/
             Community Detection
         </span>
     </div>
-    <div class="item_content">
+    <!-- <div class="item_content">
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
-    </div>
+    </div> -->
 </div>
 <div class="item_container">
     <div class="item_title"> 
@@ -107,10 +107,10 @@ permalink: /others/
             The Effect of Speculative Zoning Policy on the Distribution of The Housing Price in Korean Real Estate Market (2019)
         </span>
     </div>
-    <div class="item_content">
+    <!-- <div class="item_content">
         {% capture my_include %}{% include Others/Real_Estate.md %}{% endcapture %}
             {{ my_include | markdownify }}
-    </div>
+    </div> -->
 </div>
 <div class="item_container">
     <div class="item_title"> 
