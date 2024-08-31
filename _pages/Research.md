@@ -76,7 +76,7 @@ permalink: /research/
     <div class="item_title"> 
         <span class="arrow"></span>     
         <span class="text">
-            “Financial Development and Trade Network Formation” with Daeeun Bae
+            “Financial Development and Trade Network Formation” (with Daeeun Bae)
         </span>        
     </div>
     <div class="item_content">
