@@ -62,11 +62,25 @@ permalink: /research/
     <div class="item_title"> 
         <span class="arrow"></span>     
         <span class="text">
-            “Heterogeneous Parental Labor Supply Responses to Children’s Severe Health Shocks: Evidence from Administrative Data from South Korea (with Jungmin Lee and Hyuncheol Bryant Kim)”
+            “Heterogeneous Parental Labor Supply Responses to Children’s Severe Health Shocks: Evidence from Administrative Data from South Korea” (with Jungmin Lee and Hyuncheol Bryant Kim)
         </span>        
     </div>
     <div class="item_content">
         {% capture my_include %}{% include Research/CC_detail.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</div>
+
+
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="arrow"></span>     
+        <span class="text">
+            “Financial Development and Trade Network Formation” with Daeeun Bae
+        </span>        
+    </div>
+    <div class="item_content">
+        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
         {{ my_include | markdownify }}
     </div>
 </div>
