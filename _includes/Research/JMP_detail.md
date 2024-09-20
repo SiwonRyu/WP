@@ -1,13 +1,6 @@
-**Abstract:** Recent empirical studies emphasize the importance of indirect, or spillover, effects of a program or policy. 
-These studies usually assume that the underlying network is fixed or unaffected by the program. 
-However, some empirical evidence suggest that the treatment can also have significant network effect. 
-This paper studies the identification and estimation of causal treatment effects while explicitly considering possible network changes resulting from a program.
-The main finding is the decomposition of the causal effects into two distinct parts: the effect of treatment when the network remains unchanged and the effect when only the network structure is changed by the treatment. 
-This result enhances our understanding of the mechanisms of a policy/program through the consideration of counterfactual scenarios in which the network is either changed or unchanged due to treatment.
-The proposed method is applicable in randomized experiments as well as in quasi-experimental situations with parallel trend.	
-A simple estimation procedure for causal effects and their decomposition is proposed, with its performance evaluated using a Monte Carlo simulation and illustrated with data from a program offering savings accounts.	
-The empirical findings show that the direct effect consists of a positive pure treatment effect and a negative network effect, while the indirect effects are not statistically significant.
+**Abstract:** Recent empirical studies emphasize the importance of indirect, or spillover, effects of a program or policy. Most studies assume that the underlying network is exogenous, fixed, or unaffected by the intervention. However, some empirical evidence indicates that the treatment can also have significant network effects. This paper studies the identification and estimation of causal treatment effects while explicitly considering possible causal changes in the network resulting from a program. The main finding is the decomposition of the causal effects into two distinct components: the treatment effect when the network remains unchanged and the effect when the treatment alters only the network structure. This result enhances our understanding of policy/program mechanisms by considering counterfactual scenarios where the network is either altered or remains unchanged due to the treatment. The proposed method applies to both randomized experiments and quasi-experimental designs with parallel trends. A simple estimation procedure for causal effects and their decomposition is proposed, and its performance is evaluated through Monte Carlo simulations, and illustrated using data from a program offering savings accounts. The empirical result shows that the direct effect consists of a positive pure treatment effect and a negative network effect, while the indirect effects are not statistically significant.
 
 * Latest Version: [[Pdf]](/assets/docs/JMP.pdf)
-
----
+* Data Source: [[Replication Data]](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/K6QU2J)
+--- Comola, Margherita; Prina, Silvia, 2020, "Replication data for: Treatment Effect Accounting for Network Changes", https://doi.org/10.7910/DVN/K6QU2J, Harvard Dataverse, V1
+* Simulation: [[Matlab]](https://github.com/SiwonRyu/TENC_Simulation)
