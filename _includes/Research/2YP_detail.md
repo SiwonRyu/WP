@@ -1,6 +1,6 @@
 **Abstract:** This study investigates the identification and estimation of treatment effects when units interact with each other through a network, and the underlying network is also influenced by the treatment. Outcomes are determined not only by their own treatment but also by others' treatments through some statistics, such as the number of treated friends. These statistics are often called exposure, and are generally determined by both the treatment of others and the underlying network structure. If the network is influenced by treatment, then one's own treatment affects the outcome both directly and indirectly by altering the network. In this scenario, exposure acts as a mediator for the treatment, and thus the variation in the exposure distribution identifies direct and indirect causal effects through a mediation model. I propose a nonparametric estimator, demonstrate its performance using Monte Carlo simulations, and apply it to an empirical study examining the impact of co-education in high schools on academic performance to illustrate the proposed estimator and its decomposition.
 
-* Latest Version: [[Pdf]](/assets/docs/2YP.pdf)
+* Latest Version: [[Pdf]](/assets/docs/Medi.pdf)
 * Data Source: [[Korean Education & Employment Panel Survey (KEEP II)]](https://www.krivet.re.kr/eng/eu/eg/euCAADs.jsp) (from Korea Research Institute for Vocational Education & Training)
 
 ---
