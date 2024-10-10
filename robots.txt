@@ -1,0 +1,3 @@
+User-agent: Googlebot
+Disallow: /assets/docs/JMP.pdf
+Disallow: /assets/docs/2YP.pdf
