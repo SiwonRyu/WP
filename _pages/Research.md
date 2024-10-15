@@ -38,7 +38,7 @@ permalink: /research/
     <div class="item_title"> 
         <span class="arrow"></span>
         <span class="text">
-            “Direct and Indirect Treatment Effects with Social Interaction”
+            “Causal Mechanism with Interference”
         </span>        
     </div>
     <div class="item_content">
