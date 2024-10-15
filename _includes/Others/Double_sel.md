@@ -1,1 +1,1 @@
-* Determinants of Korean Housing Market using Double Selection: [[Slides]](/assets/docs/180516 SY&YM.pdf)
+* Determinants of Korean Housing Market using Double Selection: [[Slides]](https://github.com/SiwonRyu/Docs/raw/main/Double_Sel_slides.pdf)

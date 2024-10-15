@@ -1,3 +1,3 @@
 * Nearest Neighbor Algorithm for using Individual ID: [[SAS Code]](https://github.com/SiwonRyu/Classfication-Algorithms-Example)
-* Semi-Supervised Classification Methods: [[Slides]](/assets/docs/190312_Semi-supervised classification methods.pdf)
-* Switching Model for Classification: [[Slides]](/assets/docs/190508_Empirical CEM algorithm.pdf)
+* Semi-Supervised Classification Methods: [[Slides]](https://github.com/SiwonRyu/Docs/raw/main/CEM_slides.pdf)
+* Switching Model for Classification: [[Slides]](https://github.com/SiwonRyu/Docs/raw/main/Switching_slides.pdf)
