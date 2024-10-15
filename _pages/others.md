@@ -3,10 +3,9 @@ layout: pages_with_scroll
 title: "Others"
 permalink: /others/
 ---
-
-<img src="/assets/images/sqls.png" alt="Icon" class="item_icon">Database Works
-====
-<div class="item_container">
+<!-- <img src="/assets/images/sqls.png" alt="Icon" class="item_icon">Database Works
+==== -->
+<!-- <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
         <span >Matching with SQL</span>
@@ -15,7 +14,7 @@ permalink: /others/
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div> -->
-</div>
+<!-- </div>
 <div class="item_container">
     <div class="item_title"> 
         <span class="arrow"></span>
@@ -25,49 +24,10 @@ permalink: /others/
         {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
             {{ my_include | markdownify }}
     </div> -->
-</div>
+<!-- </div> -->
 
 
-<div style="margin-top: 50px;"></div>
 
-<img src="/assets/images/machinelearnings.png" alt="Icon" class="item_icon">Machine Learning
-====
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="arrow"></span>
-        <span >
-            Community Detection
-        </span>
-    </div>
-    <!-- <div class="item_content">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div> -->
-</div>
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="arrow"></span>
-        <span >
-            Classification
-        </span>        
-    </div>
-    <div class="item_content">
-        {% capture my_include %}{% include Others/Classification.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div>
-</div>
-<div class="item_container">
-    <div class="item_title"> 
-        <span class="arrow"></span>     
-        <span >
-            Double Selection
-        </span>
-    </div>
-    <div class="item_content">
-        {% capture my_include %}{% include Others/Double_sel.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-    </div>
-</div>
 
 
 
@@ -129,6 +89,48 @@ permalink: /others/
 
 <div style="margin-top: 50px;"></div>
 
+<img src="/assets/images/machinelearnings.png" alt="Icon" class="item_icon">Machine Learning
+====
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="arrow"></span>
+        <span >
+            Community Detection
+        </span>
+    </div>
+    <!-- <div class="item_content">
+        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+    </div> -->
+</div>
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="arrow"></span>
+        <span >
+            Classification
+        </span>        
+    </div>
+    <div class="item_content">
+        {% capture my_include %}{% include Others/Classification.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+    </div>
+</div>
+<div class="item_container">
+    <div class="item_title"> 
+        <span class="arrow"></span>     
+        <span >
+            Double Selection
+        </span>
+    </div>
+    <div class="item_content">
+        {% capture my_include %}{% include Others/Double_sel.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+    </div>
+</div>
+
+
+
+<div style="margin-top: 50px;"></div>
 
 <img src="/assets/images/codes.png" alt="Icon" class="item_icon">Codes
 ====
@@ -151,7 +153,7 @@ permalink: /others/
         <span>SAS Codes</span>        
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+        {% capture my_include %}{% include Others/SAS_codes.md  %}{% endcapture %}
             {{ my_include | markdownify }}
     </div>
 </div>
