@@ -14,7 +14,7 @@ permalink: /research/
     <div class="item_title active"> 
         <span class="arrow"></span>
         <span class="text">
-            “Decomposition of Causal Effect Accounting for Network Change” (Job market paper)
+            “Causal Effects of Treatments with Network Changes” (Job market paper)
         </span>        
     </div>
     <div class="item_content expanded">
