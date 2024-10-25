@@ -32,7 +32,7 @@ permalink: /others/
 
 
 
-<div style="margin-top: 50px;"></div>
+<!-- <div style="margin-top: 50px;"></div> -->
 
 <img src="/assets/images/projects.png" alt="Icon" class="item_icon">Previous Projects
 ====
