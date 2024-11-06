@@ -80,7 +80,7 @@ permalink: /research/
         </span>        
     </div>
     <div class="item_content">
-        {% capture my_include %}{% include FN_detail.md %}{% endcapture %}
+        {% capture my_include %}{% include Research/FN_detail.md %}{% endcapture %}
         {{ my_include | markdownify }}
     </div>
 </div>
