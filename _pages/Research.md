@@ -79,8 +79,8 @@ permalink: /research/
             “Financial Development and Trade Network Formation” (with Daeeun Bae)
         </span>        
     </div>
-    <!-- <div class="item_content">
-        {% capture my_include %}{% include Blank_pg.md %}{% endcapture %}
+    <div class="item_content">
+        {% capture my_include %}{% include FN_detail.md %}{% endcapture %}
         {{ my_include | markdownify }}
-    </div> -->
+    </div>
 </div>

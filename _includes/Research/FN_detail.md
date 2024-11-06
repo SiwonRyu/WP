@@ -1,0 +1,5 @@
+**Abstract:** This paper investigates the impact of financial development on the trading network formation and its evolution. We explore how enhancements in financial infrastructure, including improved access to credit and risk management tools, promote the formation of more robust and interconnected trading networks. Specifically, we emphasize the role of financial development in lowering transaction costs and fostering new trade linkages. Using the World Input-Output Database, we find that financial development promotes economic growth and reduces volatility by diversifying trade relationships on both intensive and extensive margins.
+
+<!-- * Data Source: [[Korean Education & Employment Panel Survey (KEEP II)]](https://www.krivet.re.kr/eng/eu/eg/euCAADs.jsp) (from Korea Research Institute for Vocational Education & Training) -->
+
+---
