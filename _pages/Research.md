@@ -14,7 +14,7 @@ permalink: /research/
     <div class="item_title active"> 
         <span class="arrow"></span>
         <span class="text">
-            “Causal Effects of Treatments with Network Changes” (Job market paper)
+            “Causal Effects of Treatments with Network Changes” <span style="color:#68f;">(Job market paper)</span>
         </span>        
     </div>
     <div class="item_content expanded">
