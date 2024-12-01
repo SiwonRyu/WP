@@ -4,3 +4,5 @@
 <!-- * Data Source: [[Replication Data]](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/K6QU2J)
 --- Comola, Margherita; Prina, Silvia, 2020, "Replication data for: Treatment Effect Accounting for Network Changes", https://doi.org/10.7910/DVN/K6QU2J, Harvard Dataverse, V1 -->
 / Simulation: [[Matlab]](https://github.com/SiwonRyu/TENC_Simulation) / Estimation with empirical data: [[Stata]](https://github.com/SiwonRyu/TENC_Estimation)
+
+---
