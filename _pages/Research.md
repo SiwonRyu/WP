@@ -26,7 +26,7 @@ permalink: /research/
     <div class="item_title"> 
         <span class="arrow"></span>
         <span class="text">
-            “Local Average Treatment Effects with Imperfect Compliance and Interference” (Under major revision at <i>Journal of Econometrics</i>)
+            “Local Average Treatment Effects with Imperfect Compliance and Interference” (Under Revise & Resubmit at <i>Journal of Econometrics</i>)
         </span>        
     </div>
     <div class="item_content">
